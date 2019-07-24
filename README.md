@@ -70,7 +70,7 @@ In header and footer text string supplied the following variables will be substi
 
 ## Testing
 
-*Tested with wkhtmltopdf.exe MXE (MinGW-w64) win32 / win64 Stable v 0.12.5 *
+*Tested with wkhtmltopdf.exe MXE (MinGW-w64) win32 / win64 Stable v 0.12.5*
 
 ## Licence
 

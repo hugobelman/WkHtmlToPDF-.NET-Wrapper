@@ -1,9 +1,12 @@
-# NuGet
+# WkHtmlToPDF C# Wrapper
 
+A small and easy-to-use C# wrapper for wkhtmltopdf executable.
 
-| Install-Package hugob.wkhtmltopdf
+## Nuget Package
 
-# Usage
+```Install-Package hugob.wkhtmltopdf```
+
+## Usage
 
 **¡Needs the wkhtmltopdf executable! [Download here](https://wkhtmltopdf.org/downloads.html)**
 
@@ -29,7 +32,7 @@ pdfOptions.Dpi = 300;
 wkHtmlToPdf.ConvertHTMLToPDF("input.html", "output.pdf", pdfOptions);
 ```
 
-# Options
+## Options
 
 * Dpi
 * Copies
@@ -66,6 +69,6 @@ In header and footer text string supplied the following variables will be substi
    * [sitepage]   Replaced by the number of the page in the current site being converted
    * [sitepages]  Replaced by the number of pages in the current site being converted
 
-# Licence
+## Licence
 
 This library is under MIT Licence.

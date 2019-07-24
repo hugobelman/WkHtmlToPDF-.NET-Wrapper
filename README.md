@@ -2,9 +2,11 @@
 
 A small and easy-to-use C# wrapper for wkhtmltopdf executable.
 
-## Nuget Package
+## Install Nuget package
 
-```Install-Package hugob.wkhtmltopdf```
+```
+Install-Package hugob.wkhtmltopdf
+```
 
 ## Usage
 

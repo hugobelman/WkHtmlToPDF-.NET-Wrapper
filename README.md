@@ -1,6 +1,6 @@
 # WkHtmlToPDF C# Wrapper (.NET Framework) 
 
-A small and easy-to-use C# wrapper for wkhtmltopdf executable.
+A small and easy-to-use wrapper for convert Html to Pdf files/url with wkhtmltopdf executable for C# .NET Framework.
 
 ## Install
 

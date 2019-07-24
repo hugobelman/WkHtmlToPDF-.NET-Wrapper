@@ -12,7 +12,9 @@ Install-Package hugob.wkhtmltopdf
 
 **¡Needs the wkhtmltopdf executable! [Download here](https://wkhtmltopdf.org/downloads.html)**
 
-Tested with wkhtmltopdf.exe MXE (MinGW-w64) Stable 0.12.5 win32 / win64
+*Tested with wkhtmltopdf.exe MXE (MinGW-w64) Stable 0.12.5 win32 / win64*
+
+The wkhtmltopdf.exe must be placed where your executable is or specify their location in the WkHtmlToPdf object constructor.
 
 ```
 var wkHtmlToPdf = new hugob.wkhtmltopdf.WkHtmlToPdf();

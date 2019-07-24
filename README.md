@@ -1,21 +1,17 @@
-# WkHtmlToPDF C# Wrapper
+# WkHtmlToPDF C# Wrapper (.NET Framework) 
 
 A small and easy-to-use C# wrapper for wkhtmltopdf executable.
 
-## Install Nuget package
+## Install
 
+1. Install Nuget Package
 ```
 Install-Package hugob.wkhtmltopdf
 ```
+2. Download wkhtmltopdf from [here](https://wkhtmltopdf.org/downloads.html) flavor **MXE (MinGW-w64) win32/win64**
+3. Decompress and move wkhtmltox/bin/wkhtmltopdf.exe where your executable is or specify their location in the WkHtmlToPdf object constructor.
 
 ## Usage
-
-**¡Needs the wkhtmltopdf executable! [Download here](https://wkhtmltopdf.org/downloads.html)**
-
-*Tested with wkhtmltopdf.exe MXE (MinGW-w64) Stable 0.12.5 win32 / win64*
-
-The wkhtmltopdf.exe must be placed where your executable is or specify their location in the WkHtmlToPdf object constructor.
-
 ```
 var wkHtmlToPdf = new hugob.wkhtmltopdf.WkHtmlToPdf();
 wkHtmlToPdf.ConvertHTMLToPDF("input.html", "output.pdf");
@@ -35,7 +31,6 @@ pdfOptions.Dpi = 300;
 
 wkHtmlToPdf.ConvertHTMLToPDF("input.html", "output.pdf", pdfOptions);
 ```
-
 ## Options
 
 * Dpi
@@ -72,6 +67,10 @@ In header and footer text string supplied the following variables will be substi
    * [doctitle]   Replaced by the title of the output document
    * [sitepage]   Replaced by the number of the page in the current site being converted
    * [sitepages]  Replaced by the number of pages in the current site being converted
+
+## Testing
+
+*Tested with wkhtmltopdf.exe MXE (MinGW-w64) win32 / win64 Stable v 0.12.5 *
 
 ## Licence
 

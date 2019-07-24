@@ -1,4 +1,4 @@
-﻿namespace wkhtmltopdf
+﻿namespace hugob.wkhtmltopdf
 {
     public class WkHtmlToPdfMargin
     {

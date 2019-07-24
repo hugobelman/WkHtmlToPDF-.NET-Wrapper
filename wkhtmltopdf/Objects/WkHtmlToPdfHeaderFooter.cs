@@ -1,4 +1,4 @@
-﻿namespace wkhtmltopdf
+﻿namespace hugob.wkhtmltopdf
 {
     public class WkHtmlToPdfHeaderFooter
     {
@@ -21,6 +21,12 @@
         public WkHtmlToPdfHeaderFooter()
         {
 
+        }
+
+        public WkHtmlToPdfHeaderFooter(string center, string left, string right) : this(center)
+        {
+            this.left = left;
+            this.right = right;
         }
 
         public WkHtmlToPdfHeaderFooter(string center, string left, string right, string fontName, float fontSize)

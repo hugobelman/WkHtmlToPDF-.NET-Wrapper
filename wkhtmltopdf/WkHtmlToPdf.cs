@@ -2,9 +2,9 @@
 using System.IO;
 using System.Text;
 
-namespace wkhtmltopdf
+namespace hugob.wkhtmltopdf
 {
-    class WkHtmlToPdf
+    public class WkHtmlToPdf
     {
         private readonly string executablePath = "wkhtmltopdf.exe";
         public WkHtmlToPdf()

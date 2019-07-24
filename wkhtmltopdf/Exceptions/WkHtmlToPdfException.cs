@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace wkhtmltopdf
+namespace hugob.wkhtmltopdf
 {
     class WkHtmlToPdfException : Exception
     {

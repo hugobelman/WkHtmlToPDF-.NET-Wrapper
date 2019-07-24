@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace wkhtmltopdf
+namespace hugob.wkhtmltopdf
 {
     public enum Orientation { LANDSCAPE, PORTRAIT }
 

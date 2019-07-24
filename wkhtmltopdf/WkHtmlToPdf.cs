@@ -260,13 +260,13 @@ namespace hugob.wkhtmltopdf
 
             if (header != null)
             {
-                if (header.HtmlUrl != null) paramsStringBuilder.Append($"--header-html {header.HtmlUrl} ");
-                if (header.Center != null) paramsStringBuilder.Append($"--header-center {header.Center} ");
-                if (header.Left != null) paramsStringBuilder.Append($"--header-left {header.Left} ");
-                if (header.Right != null) paramsStringBuilder.Append($"--header-right {header.Right} ");
-                if (header.Spacing != 0.0) paramsStringBuilder.Append($"--header-spacing {header.Spacing} ");
-                if (header.FontSize != 12.0) paramsStringBuilder.Append($"--header-font-size {header.FontSize} ");
-                if (header.FontName != null) paramsStringBuilder.Append($"--header-font-name {header.FontName} ");
+                if (header.HtmlUrl != null) paramsStringBuilder.Append($"--header-html \"{header.HtmlUrl}\" ");
+                if (header.Center != null) paramsStringBuilder.Append($"--header-center \"{header.Center}\" ");
+                if (header.Left != null) paramsStringBuilder.Append($"--header-left \"{header.Left}\" ");
+                if (header.Right != null) paramsStringBuilder.Append($"--header-right \"{header.Right}\" ");
+                if (header.Spacing != 0.0) paramsStringBuilder.Append($"--header-spacing \"{header.Spacing}\" ");
+                if (header.FontSize != 12.0) paramsStringBuilder.Append($"--header-font-size \"{header.FontSize}\" ");
+                if (header.FontName != null) paramsStringBuilder.Append($"--header-font-name \"{header.FontName}\" ");
             }
 
             return paramsStringBuilder.ToString();
@@ -278,13 +278,13 @@ namespace hugob.wkhtmltopdf
 
             if (footer != null)
             {
-                if (footer.HtmlUrl != null) paramsStringBuilder.Append($"--footer-html {footer.HtmlUrl} ");
-                if (footer.Center != null) paramsStringBuilder.Append($"--footer-center {footer.Center} ");
-                if (footer.Left != null) paramsStringBuilder.Append($"--footer-left {footer.Left} ");
-                if (footer.Right != null) paramsStringBuilder.Append($"--footer-right {footer.Right} ");
-                if (footer.Spacing != 0.0) paramsStringBuilder.Append($"--footer-spacing {footer.Spacing} ");
-                if (footer.FontSize != 12.0) paramsStringBuilder.Append($"--footer-font-size {footer.FontSize} ");
-                if (footer.FontName != null) paramsStringBuilder.Append($"--footer-font-name {footer.FontName} ");
+                if (footer.HtmlUrl != null) paramsStringBuilder.Append($"--footer-html \"{footer.HtmlUrl}\" ");
+                if (footer.Center != null) paramsStringBuilder.Append($"--footer-center \"{footer.Center}\" ");
+                if (footer.Left != null) paramsStringBuilder.Append($"--footer-left \"{footer.Left}\" ");
+                if (footer.Right != null) paramsStringBuilder.Append($"--footer-right \"{footer.Right}\" ");
+                if (footer.Spacing != 0.0) paramsStringBuilder.Append($"--footer-spacing \"{footer.Spacing}\" ");
+                if (footer.FontSize != 12.0) paramsStringBuilder.Append($"--footer-font-size \"{footer.FontSize}\" ");
+                if (footer.FontName != null) paramsStringBuilder.Append($"--footer-font-name \"{footer.FontName}\" ");
             }
 
             return paramsStringBuilder.ToString();

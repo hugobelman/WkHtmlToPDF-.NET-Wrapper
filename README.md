@@ -12,14 +12,15 @@ Install-Package hugob.wkhtmltopdf
 3. Decompress and move wkhtmltox/bin/wkhtmltopdf.exe where your executable is or specify their location in the WkHtmlToPdf object constructor.
 
 ## Usage
-```
+
+```C#
 var wkHtmlToPdf = new hugob.wkhtmltopdf.WkHtmlToPdf();
 wkHtmlToPdf.ConvertHTMLToPDF("input.html", "output.pdf");
 ```
 
 Or
 
-```
+```C#
 var wkHtmlToPdf = new hugob.wkhtmltopdf.WkHtmlToPdf();
 var pdfOptions = new hugob.wkhtmltopdf.WkHtmlToPdfOptions();
 

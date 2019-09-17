@@ -1,12 +1,12 @@
 # WkHtmlToPDF C# Wrapper (.NET Framework) 
 
-A small and easy-to-use wrapper for convert Html to Pdf files/url with wkhtmltopdf executable for C# .NET Framework.
+A small and easy-to-use wrapper for convert Html files to Pdf files with wkhtmltopdf executable for C# .NET Framework.
 
 ## Install
 
 1. Install Nuget Package
 ```
-Install-Package hugob.wkhtmltopdf
+Install-Package hugobelman.wkhtmltopdf
 ```
 2. Download wkhtmltopdf from [here](https://wkhtmltopdf.org/downloads.html) flavor **MXE (MinGW-w64) win32/win64**
 3. Decompress and move wkhtmltox/bin/wkhtmltopdf.exe where your executable is or specify their location in the WkHtmlToPdf object constructor.
@@ -14,23 +14,23 @@ Install-Package hugob.wkhtmltopdf
 ## Usage
 
 ```C#
-var wkHtmlToPdf = new hugob.wkhtmltopdf.WkHtmlToPdf();
+var wkHtmlToPdf = new hugobelman.wkhtmltopdf.WkHtmlToPdf();
 wkHtmlToPdf.ConvertHTMLToPDF("input.html", "output.pdf");
 ```
 
 Or
 
 ```C#
-var wkHtmlToPdf = new hugob.wkhtmltopdf.WkHtmlToPdf();
-var pdfOptions = new hugob.wkhtmltopdf.WkHtmlToPdfOptions();
+var wkHtmlToPdf = new hugobelman.wkhtmltopdf.WkHtmlToPdf();
+var pdfOptions = new hugobelman.wkhtmltopdf.WkHtmlToPdfOptions();
 
 pdfOptions.Footer.Center = "Test";
 pdfOptions.Header.Right = "[page] out of [topage]";
-pdfOptions.PageSize = hugob.wkhtmltopdf.PaperSize.LETTER;
-pdfOptions.Margin = new hugob.wkhtmltopdf.WkHtmlToPdfMargin(25.4F);
-pdfOptions.Dpi = 300;
+pdfOptions.PageSize = hugobelman.wkhtmltopdf.PaperSize.A4;
+pdfOptions.Margin = new hugobelman.wkhtmltopdf.WkHtmlToPdfMargin(5.0f,10.0f,5.0f,5.0f);
+pdfOptions.Dpi = 30
 
-wkHtmlToPdf.ConvertHTMLToPDF("input.html", "output.pdf", pdfOptions);
+wkHtmlToPdf.ConvertHTMLToPDF("google.com", "output.pdf", pdfOptions);
 ```
 ## Options
 

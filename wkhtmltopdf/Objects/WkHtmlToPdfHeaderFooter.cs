@@ -1,4 +1,4 @@
-﻿namespace hugob.wkhtmltopdf
+﻿namespace hugobelman.wkhtmltopdf
 {
     public class WkHtmlToPdfHeaderFooter
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{303742F9-91D6-4D93-83BB-BE06C62933EC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>hugob.wkhtmltopdf</RootNamespace>
-    <AssemblyName>hugob.wkhtmltopdf</AssemblyName>
+    <RootNamespace>hugobelman.wkhtmltopdf</RootNamespace>
+    <AssemblyName>hugobelman.wkhtmltopdf</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

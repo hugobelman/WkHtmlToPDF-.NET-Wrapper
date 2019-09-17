@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace hugob.wkhtmltopdf
+namespace hugobelman.wkhtmltopdf
 {
     public class WkHtmlToPdf
     {

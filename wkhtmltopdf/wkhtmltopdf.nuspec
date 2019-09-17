@@ -6,12 +6,11 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
+    <projectUrl>https://github.com/hugobelman/WkHtmlToPDF-.NET-Wrapper</projectUrl>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/hugobelman/WkHtmlToPDF-C-Wrapper</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes></releaseNotes>
     <copyright>Copyright 2019</copyright>
-    <tags></tags>
+    <tags>WkHtmlToPDF Wrapper</tags>
   </metadata>
 </package>
